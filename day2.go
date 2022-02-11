@@ -7,9 +7,10 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"testing"
 )
 
-func main() {
+func TestDay2(*testing.T) {
 	file, err := os.Open("day2.txt")
 	if err != nil {
 		panic(err)
