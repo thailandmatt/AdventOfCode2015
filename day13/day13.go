@@ -45,7 +45,7 @@ func main() {
 	}
 
 	var people []string
-	for k, _ := range graph {
+	for k := range graph {
 		people = append(people, k)
 	}
 
